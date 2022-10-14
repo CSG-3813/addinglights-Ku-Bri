@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18115951, g: 0.22674884, b: 0.30732223, a: 1}
+  m_IndirectSpecularColor: {r: 0.031356305, g: 0.009549969, b: 0.0132265445, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14152,7 +14152,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.9716981, g: 0.051708333, b: 0.04277907, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.21
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -14194,7 +14194,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 10.34
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -17676,15 +17676,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1806633177957756469, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.053976353
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 1806633177957756469, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.8996255
+      value: 2.8975
       objectReference: {fileID: 0}
     - target: {fileID: 1806633177957756469, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.11100585
+      value: -0.111
       objectReference: {fileID: 0}
     - target: {fileID: 1806633177957756469, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17725,6 +17725,22 @@ PrefabInstance:
     - target: {fileID: 1806633177957756475, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
       propertyPath: m_AreaSize.y
       value: 0.43834287
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806633177957756475, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806633177957756475, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -2.0000021
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806633177957756475, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 3e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806633177957756475, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: NaN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe530f2a862e44243a0573134e3210e8, type: 3}
